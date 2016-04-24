@@ -8,3 +8,13 @@ G:\projetos_vb\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\Relacioname
 G:\projetos_vb\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.exe
 G:\projetos_vb\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.xml
 G:\projetos_vb\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.pdb
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\bin\Debug\RelacionamentosTabela.exe.config
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.exe
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.xml
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.pdb
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\bin\Debug\RelacionamentosTabela.exe
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\bin\Debug\RelacionamentosTabela.pdb
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\bin\Debug\RelacionamentosTabela.xml
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.form_index.resources
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.Resources.resources
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.vbproj.GenerateResource.Cache
