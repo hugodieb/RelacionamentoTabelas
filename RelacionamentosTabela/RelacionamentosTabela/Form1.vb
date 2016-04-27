@@ -99,4 +99,13 @@ Public Class form_index
         carregaGridView()
         formataGrid()
     End Sub
+
+    Private Sub btnCadastro_Click(sender As Object, e As EventArgs) Handles btnCadastro.Click
+        cadFormAlunoCurso.ShowDialog()
+        carregaListBox()
+    End Sub
+
+    Private Sub btnFechar_Click(sender As Object, e As EventArgs) Handles btnFechar.Click
+        Me.Close()
+    End Sub
 End Class

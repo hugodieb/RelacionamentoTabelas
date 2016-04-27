@@ -20,3 +20,5 @@ G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\Relaci
 G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.vbproj.GenerateResource.Cache
 G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.vbprojResolveAssemblyReference.cache
 G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.cadFormAlunoCurso.resources
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.frmAluno.resources
+G:\projetos_vb\CRUD\RelacionamentosTabela\RelacionamentosTabela\obj\Debug\RelacionamentosTabela.frmCurso.resources
