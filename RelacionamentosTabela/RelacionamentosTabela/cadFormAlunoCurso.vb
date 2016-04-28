@@ -17,14 +17,9 @@ Public Class cadFormAlunoCurso
 
     Private Sub btnSalvarAlunoCurso_Click(sender As Object, e As EventArgs) Handles btnSalvarAlunoCurso.Click
 
-        If validaCampos() Then
-            gravaAlunoCurso()
-
-        Else
-            MsgBox("Campo invalido", MsgBoxStyle.Information)
-
-            Exit Sub
-        End If
+        If validaCampos() = False Then Exit Sub
+        If verificaAlunoCurso() = False Then Exit Sub
+        gravaAlunoCurso()
 
     End Sub
 
@@ -56,6 +51,39 @@ Public Class cadFormAlunoCurso
             End Try
         End Using
     End Sub
+
+
+    Private Function verificaAlunoCurso() As Boolean
+        Dim intResultQuery As Integer
+        Dim sql As String
+
+        Using con As OleDbConnection = getConnection()
+
+            Try
+                con.Open()
+                sql = "SELECT COUNT(*) FROM alunoCurso WHERE idAluno=" & txtCodAluno.Text & "AND idCurso=" & txtCodCurso.Text
+
+                Dim cmd As OleDbCommand = New OleDbCommand(sql, con)
+
+                intResultQuery = cmd.ExecuteScalar
+
+                If intResultQuery > 0 Then
+                    MsgBox("Aluno ja cadastrado para este curso.", MsgBoxStyle.Information)
+
+                    Return False
+                End If
+
+            Catch ex As Exception
+                MsgBox(ex.Message)
+
+            Finally
+                con.Close()
+            End Try
+
+        End Using
+
+        Return True
+    End Function
 
     Private Function validaCampos() As Boolean
 
